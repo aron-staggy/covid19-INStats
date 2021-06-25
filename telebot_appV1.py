@@ -11,7 +11,7 @@ import time
 import telebot
 from apscheduler.schedulers.background import BackgroundScheduler
 
-token="TOKEN HERE"
+token="1732101328:AAHs2A4l4uRuR1kiVa3HBM1AlcRnSk2SaLU"
 bot = telebot.TeleBot(token)
 user = bot.get_me()
 scheduler=BackgroundScheduler()
